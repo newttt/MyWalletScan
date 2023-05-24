@@ -7,7 +7,6 @@ import Layer from "@pages/Layer/index.jsx";
 import Mirror from "@pages/Mirror/index.jsx";
 import Coffee from "@pages/Coffee/index.jsx";
 import Deposit from "@pages/Deposit/index.jsx";
-import Notice from "@components/Notice/index.jsx";
 
 function MainPage() {
     const location = useLocation()
@@ -18,7 +17,7 @@ function MainPage() {
                 minHeight: "100vh",
             }}
         >
-            <Notice/>
+            {/* <Notice/> */}
             <Layout>
                 <div
                     style={{
